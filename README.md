@@ -16,7 +16,6 @@ LifeLens is a cutting-edge web application designed to provide an interactive pl
 
 ## Acknowledgments
 
-- Created by Ashutosh Singh
 - Built with [Next.js](https://nextjs.org/)
 - UI components from [shadcn/ui](https://ui.shadcn.com/)
 - Icons from [Lucide](https://lucide.dev/)
