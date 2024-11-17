@@ -1,6 +1,7 @@
 'use client';
 
 import * as React from 'react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { DayPicker } from 'react-day-picker';
 
 import { cn } from '@/lib/utils';
@@ -51,6 +52,20 @@ function Calendar({
           'aria-selected:bg-accent aria-selected:text-accent-foreground',
         day_hidden: 'invisible',
         ...classNames,
+      }}
+      components={{
+        Dropdown: ({ ...props }) => <div {...props} />,
+        DropdownButton: ({ ...props }) => (
+          <button
+            type="button"
+            className={cn(
+              buttonVariants({ variant: "outline" }),
+              "px-2 py-1 h-auto"
+            )}
+            {...props}
+          />
+        ),
+        DropdownButtonIcon: () => null
       }}
       {...props}
     />
