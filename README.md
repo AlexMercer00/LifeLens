@@ -1,6 +1,7 @@
 # LifeLens: Explore Genes & Proteins
 
 https://life-lens-neon.vercel.app/
+
 LifeLens is a cutting-edge web application designed to provide an interactive platform for exploring genomic and protein data. Built with Next.js and React, it offers a futuristic interface for researchers, students, and enthusiasts in the field of molecular biology.
 
 ## Features
